@@ -1,0 +1,16 @@
+# Compiled binary
+build/riscv-sim
+build/
+
+# Object files
+*.o
+*.a
+
+# Editor and IDE files
+.vscode/
+*.swp
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
