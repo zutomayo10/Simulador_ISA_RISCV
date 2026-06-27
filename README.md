@@ -404,20 +404,3 @@ python3 tests/gen_ecall_test.py
 ```
 
 ---
-
-## Registro de nombres ABI
-
-| Registro | Nombre ABI | Uso convencional |
-|---|---|---|
-| x0 | zero | Siempre 0 |
-| x1 | ra | Return address |
-| x2 | sp | Stack pointer |
-| x3 | gp | Global pointer |
-| x4 | tp | Thread pointer |
-| x5–x7 | t0–t2 | Temporales |
-| x8 | s0/fp | Saved / frame pointer |
-| x9 | s1 | Saved |
-| x10–x11 | a0–a1 | Argumentos / valores de retorno |
-| x12–x17 | a2–a7 | Argumentos / número de syscall |
-| x18–x27 | s2–s11 | Saved registers |
-| x28–x31 | t3–t6 | Temporales |
