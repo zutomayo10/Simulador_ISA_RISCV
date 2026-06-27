@@ -1,5 +1,7 @@
 # Simulador RISC-V 32-bit (RV32I)
 
+Alumno: Isaac Simeón Sarmiento
+
 Simulador de la arquitectura RISC-V de 32 bits con interfaz de línea de comandos interactiva. Implementa el conjunto base de instrucciones RV32I completo (37 instrucciones) según el estándar RISC-V.
 
 ---
